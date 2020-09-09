@@ -111,7 +111,6 @@ class Main {
     }
 
     resetToDefault() {
-        window.removeEventListener("keydown", this.keyDownListener.bind(this))
         this.wrapper.innerHTML = "";
         this.obstaclesArray = [];
         this.score = 0;
